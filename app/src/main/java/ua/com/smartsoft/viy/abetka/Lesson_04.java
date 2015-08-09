@@ -112,7 +112,7 @@ public class Lesson_04 extends Activity {
 ////divImage = divImage * widthImage;
 ////heightImage = (int)divImage;
 ////drawableImage01 = new BitmapDrawable(getApplicationContext().getResources(),scaleImage);
-////textview02.setBackground(drawableImage01);
+
 
 
 //          sourceImage = BitmapFactory.decodeResource(getResources(), R.drawable.l0100);
