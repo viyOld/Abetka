@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btnquest_activity">32dp</dimen>
+    <dimen name="size_font_abetka">72dp</dimen>
+    <dimen name="size_font_title">32dp</dimen>
+</resources>

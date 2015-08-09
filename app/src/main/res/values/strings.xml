@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Смачна Абетка</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lesson_1">Урок перший</string>
+    <string name="lesson_2">Урок другий</string>
+    <string name="lesson_3">Урок третій</string>
+    <string name="lesson_4">Урок четвертий</string>
+    <string name="exit">Вихід</string>
+    <string name="btnquest"> "?" </string>
+
+    <string name="btnAbout">Про программу</string>
+    <string name="txtAbout">
+        Ця программа - це перша спроба написати \n
+        працюючу программу на Android \n \n
+        Автор цього "шедевру" Войтенко А.В.\n \n
+        email: viy.2005@gmail.com\n
+    </string>
+    <string name="btnOption">Налаштуваня</string>
+    <string name="btnPrev">Назад</string>
+    <string name="btnNext">Далі</string>
+    <string name="btnGoNext">Наступна</string>
+
+    <string name="btnMenuOrder">Порядок</string>
+    <string name="btnMenuOrderly">Прямий</string>
+    <string name="btnMenuReverse">Зворотній</string>
+    <string name="btnMenuRandom">Випадковий</string>
+    <string name="btnMenuFont">Шрифт</string>
+
+    <string name="lblTitle">Смачного</string>
+
+    <string-array name="abetka_array">
+        <item>А</item>      // 00
+        <item>Б</item>      // 01
+        <item>В</item>      // 02
+        <item>Г</item>      // 03
+        <item>Ґ</item>      // 04
+        <item>Д</item>      // 05
+        <item>Е</item>      // 06
+        <item>Є</item>      // 07
+        <item>Ж</item>      // 08
+        <item>З</item>      // 09
+        <item>И</item>      // 10
+        <item>І</item>      // 11
+        <item>Ї</item>      // 12
+        <item>Й</item>      // 13
+        <item>К</item>      // 14
+        <item>Л</item>      // 15
+        <item>М</item>      // 16
+        <item>Н</item>      // 17
+        <item>О</item>      // 18
+        <item>П</item>      // 19
+        <item>Р</item>      // 20
+        <item>С</item>      // 21
+        <item>Т</item>      // 22
+        <item>У</item>      // 23
+        <item>Ф</item>      // 24
+        <item>Х</item>      // 25
+        <item>Ц</item>      // 26
+        <item>Ч</item>      // 27
+        <item>Ш</item>      // 28
+        <item>Щ</item>      // 29
+        <item>ь</item>      // 30
+        <item>Ю</item>      // 31
+        <item>Я</item>      // 32
+    </string-array>
+
+    <string-array name="name_fonts">
+        <item>fonts/Narbut_Abetka.ttf</item>
+        <item>fonts/Narbut_Classic.ttf</item>
+        <item>fonts/Narbut_Extra_Wide.ttf</item>
+        <item>fonts/Narbut_Narrow_Contrast.ttf</item>
+        <item>fonts/Narbut_Whirl.ttf</item>
+    </string-array>
+
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_leson_03">Leson_03</string>
+    <string name="title_activity_abetka">Abetka</string>
+    <string name="title_activity_lesson_04">Lesson_04</string>
+</resources>

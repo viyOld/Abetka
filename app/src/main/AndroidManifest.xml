@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ua.com.smartsoft.viy.abetka"
+    android:installLocation="auto" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".Abetka"
+        android:allowBackup="true"
+        android:icon="@mipmap/ab_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Lesson_01"
+            android:label="@string/lesson_1"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".Lesson_02"
+            android:label="@string/lesson_2"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".Lesson_03"
+            android:label="@string/lesson_3" >
+        </activity>
+        <activity
+            android:name=".Lesson_04"
+            android:label="@string/lesson_4" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+
+    </application>
+
+</manifest>
